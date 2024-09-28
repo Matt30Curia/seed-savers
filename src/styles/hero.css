@@ -1,0 +1,74 @@
+.img-hero {
+  width: 45vw;
+  height: 90vh;
+  object-fit: cover;
+  border-radius: 200px 0 0 200px;
+}
+
+#button {
+  background-color: #dda15e;
+  border: none;
+  color: #fefae0;
+  padding: 2% 5%;
+  text-align: center;
+  font-size: 3vh;
+  max-width: 60%;
+  margin-top:10%;
+  border-radius: 25px;
+  transition: background-color 0.5s ease;
+  
+
+}
+
+#button:hover {
+  transition: background-color 0.5s ease;
+  background-color: #606c38;
+
+}
+
+#welcome-card {
+  padding-left: 3vw;
+  font-weight: 500;
+  height: 90vh;
+  background-color: #e3fda7;
+}
+
+.title {
+  color: #606c38;
+  padding-top: 3vh;
+  font-size: 7vw;
+  font-weight: 500;
+}
+
+#welcome-card p {
+  line-height: 3vw;
+  font-size: 3vw;
+  font-weight: 350;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .img-hero {
+    width: 94vw;
+    height: 15vh;
+  }
+
+  .title{
+    margin-top: -100px;
+    padding-top: 1vh;
+  }
+  
+  #button{
+    margin-top: 0;
+    margin-left: 15px;
+    font-size: 1.5vh;
+    
+  }
+
+  #welcome-card {
+    margin-bottom: 2vh;
+    height: 20vh;
+
+  }
+
+  
+}

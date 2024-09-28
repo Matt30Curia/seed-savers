@@ -1,0 +1,33 @@
+.image {
+  height: 64px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.truncate {
+  flex-wrap: nowrap !important;
+  overflow: auto !important;
+  scrollbar-width: none;
+}
+
+.green-square {
+  background-color: #e3fda7;
+  height: 20%;
+  border-radius: 20px;
+}
+
+.green-square  p {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 1.75vw;
+  
+}
+
+@media only screen and (max-device-width: 800px) {
+  .green-square p {
+    font-size: 3.2vw;
+    line-height: 3.7vw;
+  }
+}

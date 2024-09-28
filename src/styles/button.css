@@ -1,0 +1,19 @@
+#s-button {
+  background-color: #dda15e;
+  border: none;
+  color: #fefae0;
+  
+  align-items: center;
+  font-size: 3vh;
+ 
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+
+
+}
+
+#s-button:hover {
+  transition: background-color 0.5s ease;
+  background-color: #606c38;
+
+}

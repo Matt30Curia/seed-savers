@@ -1,0 +1,14 @@
+.p-image {
+  margin-top: 20px;
+  width: 45vw;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 70px
+}
+
+@media only screen and (max-device-width: 800px) {
+  .p-image{
+    width: 94.7vw;
+    height: 30vh;
+  }
+}
